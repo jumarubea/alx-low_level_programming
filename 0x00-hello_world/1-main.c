@@ -7,6 +7,5 @@
  */
 int main(void)
 {
-	printf("Juma Rubea");
 	return(0);
 }
