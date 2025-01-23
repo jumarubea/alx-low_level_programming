@@ -12,7 +12,9 @@ int main(void)
 		'g', 'h', 'i', 'j', 'k', 'l', 'm',
 		'n', 'o', 'p', 'q', 'r', 's', 't',
 		'u', 'v', 'w', 'x', 'y', 'z'};
-	for(int i=0; i < sizeof(a); i ++)
+	int i;
+	int size = sizeof(a);
+	for(i = 0; i < size; i ++)
 	{
 		putchar(tolower(a[i]));
 	}
