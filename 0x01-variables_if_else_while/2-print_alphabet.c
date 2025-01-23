@@ -16,7 +16,7 @@ int main(void)
 	int size = sizeof(a);
 	for(i = 0; i < size; i ++)
 	{
-		putchar(tolower(a[i]));
+		putchar(a[i]);
 	}
 	putchar('\n');
 	return (0);
