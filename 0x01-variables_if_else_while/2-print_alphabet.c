@@ -14,7 +14,8 @@ int main(void)
 		'u', 'v', 'w', 'x', 'y', 'z'};
 	int i;
 	int size = sizeof(a);
-	for(i = 0; i < size; i ++)
+
+	for (i = 0; i < size; i++)
 	{
 		putchar(a[i]);
 	}
