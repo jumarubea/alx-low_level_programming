@@ -14,7 +14,7 @@ int main(void)
 		'u', 'v', 'w', 'x', 'y', 'z'};
 	int i;
 	int size = sizeof(a);
-	char upperChar[size];
+	char upperChar[26];
 
 	for (i = 0; i < size; i++)
 	{
