@@ -29,6 +29,7 @@ int main(void)
 	{
 		putchar(upperChar[i]);
         }
+
 	putchar('\n');
 	return (0);
 }
