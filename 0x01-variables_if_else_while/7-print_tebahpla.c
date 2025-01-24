@@ -15,7 +15,7 @@ int main(void)
 	int i;
 	int size = sizeof(a);
 
-	for (i = size -1 ; i >= 0; i--)
+	for (i = size - 1 ; i >= 0; i--)
 	{
 		putchar(a[i]);
 	}
