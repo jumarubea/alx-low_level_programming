@@ -13,18 +13,22 @@ int main(void)
     {
         for (j = i; j < 100; j++)
         {
-            printf("%02d ", i);
+            putchar(i / 10 + '0');
+            putchar(i % 10 + '0');
 
-            printf("%02d", j);
+            putchar(' ');
+
+            putchar(j / 10 + '0');
+            putchar(j % 10 + '0');
 
             if (!(i == 99 && j == 99))
             {
-                printf(", ");
+                putchar(',');
+                putchar(' ');
             }
         }
     }
 
-    printf("\n");
-    return 0;
+    putchar('\n');
+    return (0);
 }
-
