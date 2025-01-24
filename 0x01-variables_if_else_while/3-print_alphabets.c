@@ -28,7 +28,7 @@ int main(void)
 	for (i = 0; i < size; i++)
 	{
 		putchar(upperChar[i]);
-        }
+	}
 
 	putchar('\n');
 	return (0);
