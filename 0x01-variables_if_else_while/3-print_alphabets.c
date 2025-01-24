@@ -14,12 +14,14 @@ int main(void)
 		'u', 'v', 'w', 'x', 'y', 'z'};
 	int i;
 	int size = sizeof(a);
-	char upperChar[26];
+	char upperChar[] = {'A', 'B', 'C', 'D', 'E', 'F',
+		'G', 'H', 'I', 'J', 'K', 'L', 'M', 
+		'N', 'O', 'P', 'Q', 'R', 'S', 'T',
+		'U', 'V', 'W', 'X', 'Y', 'Z'};
 
 	for (i = 0; i < size; i++)
 	{
 		putchar(a[i]);
-		upperChar[i] = toupper(a[i]);
 
 	}
 	
