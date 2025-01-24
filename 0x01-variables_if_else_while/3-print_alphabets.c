@@ -15,7 +15,7 @@ int main(void)
 	int i;
 	int size = sizeof(a);
 	char upperChar[] = {'A', 'B', 'C', 'D', 'E', 'F',
-		'G', 'H', 'I', 'J', 'K', 'L', 'M', 
+		'G', 'H', 'I', 'J', 'K', 'L', 'M',
 		'N', 'O', 'P', 'Q', 'R', 'S', 'T',
 		'U', 'V', 'W', 'X', 'Y', 'Z'};
 
@@ -24,13 +24,11 @@ int main(void)
 		putchar(a[i]);
 
 	}
-	
-	for (i = 0; i < size; i++)
-        {
-                putchar(upperChar[i]);
 
+	for (i = 0; i < size; i++)
+	{
+		putchar(upperChar[i]);
         }
-	
 	putchar('\n');
 	return (0);
 }
