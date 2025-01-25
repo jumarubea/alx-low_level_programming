@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - display the alphabet
  *
- * Return: Always 0.
+ * Return: void
  */
 
 void print_alphabet(void)
