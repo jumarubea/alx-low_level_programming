@@ -11,8 +11,9 @@ void print_alphabet(void)
                 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
                 'x', 'y',  'z'};
         int i;
+	int size = sizeof(arr) / sizeof(arr[0]);
 
-        for (i = 0; i < sizeof(arr); i++)
+        for (i = 0; i < size; i++)
         {
                 _putchar(arr[i]);
         }
