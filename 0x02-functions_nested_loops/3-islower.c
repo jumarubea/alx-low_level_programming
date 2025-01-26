@@ -1,13 +1,13 @@
-/**
- * _islower - find the letter is lower
- * params: c - char to be tested
- * Return: 1 if true else 0
- */
+#include <stdio.h>
+#include <ctype.h>
 
+/**
+ * _islower - Checks if a character is lowercase
+ * @c: The character to be checked
+ *
+ * Return: 1 if the character is lowercase, 0 otherwise
+ */
 int _islower(int c)
 {
-	if islower(c)
-		return (1);
-	else
-		return (0);
+	return (islower(c) ? 1 : 0);
 }
