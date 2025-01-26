@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * jack_bauer - a function to print min and hour
@@ -16,7 +16,10 @@ void jack_bauer(void)
 	{
 		while (mm <= 59)
 		{
-			printf("%.2d:%.2d\n", hh, mm);
+			_putchar(hh + '0');
+			_putchar(':' + '0');
+			_putchar(mm + '0');
+			_putchar('\n');
 			mm++;
 		}
 		hh++;
