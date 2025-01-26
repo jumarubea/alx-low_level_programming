@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * jack_bauer - a function to print min and hour
+ * jack_bauer - Prints every minute of the day (hh:mm format)
  *
- * Description: just a watch
- * Return: hh:mm
+ * Description: Loops through all hours and minutes in a 24-hour clock
+ * and prints them in the format "hh:mm", using _putchar.
+ * Return: void
  */
-
 void jack_bauer(void)
 {
 	int hh = 0;
@@ -16,9 +16,11 @@ void jack_bauer(void)
 	{
 		while (mm <= 59)
 		{
-			_putchar('0' + hh);
+			_putchar('0' + (hh / 10));
+			_putchar('0' + (hh % 10));
 			_putchar(':');
-			_putchar('0' + mm);
+			_putchar('0' + (mm / 10));
+			_putchar('0' + (mm % 10));
 			_putchar('\n');
 			mm++;
 		}
@@ -26,3 +28,4 @@ void jack_bauer(void)
 		mm = 0;
 	}
 }
+
