@@ -3,7 +3,7 @@
  *
  * Description: it is function
  * @c : params
- * 
+ *
  * Return: 1 if satisfy and 0 otherwise
  */
 
