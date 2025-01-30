@@ -6,12 +6,9 @@
 
 void print_numbers(void)
 {
-	int numbers[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-	int i, size;
+	int i = 0;
 
-	size = sizeof(numbers) / sizeof(numbers[0]);
-
-	while (i <= size)
+	for (i; i <= 9; i++)
 	{
 		_putchar(i);
 		i++;
