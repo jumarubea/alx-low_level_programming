@@ -11,7 +11,7 @@ void print_numbers(void)
 
 	size = sizeof(numbers) / sizeof(numbers[0]);
 
-	while (i < size)
+	while (i <= size)
 	{
 		_putchar(i);
 		i++;
